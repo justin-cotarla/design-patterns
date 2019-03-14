@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PrinterTest {
+class DecoratorTest {
     @Test
-    public void DecoratorTest() {
+    public void decoratorTest() {
         Printer concretePrinter = new ConcretePrinter();
         Printer uppercasePrinter = new UppercasePrinter(concretePrinter);
 
